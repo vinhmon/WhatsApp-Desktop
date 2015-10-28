@@ -67,7 +67,7 @@ iframe.onload = function() {
   windowBehaviour.closeWithEscKey(win, iframe.contentDocument);
 };
 
-// Reload the app periodically until it loads
+// Reload the app periodically until it load
 var reloadIntervalId = setInterval(function() {
   if (win.window.navigator.onLine) {
     clearInterval(reloadIntervalId);
